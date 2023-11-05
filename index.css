@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arial", sans-serif;
+  color: #012e57;
+}
+
+.bg-blue {
+  background: #012e57;
+  width: 100vw;
+  height: 25px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background: #fff;
+  height: 100px;
+}
+.fa-solid {
+  font-size: 16px;
+  margin-left: 10px;
+  color: #012e57;
+}
+
+.top {
+  font-weight: 300;
+  margin-left: 9px;
+  color: #012e57;
+}
+
+.off-white {
+  background: #aeacac;
+  width: 100%;
+  height: 3px;
+  position: absolute;
+  top: 100px;
+}
+
+.fname {
+  font-weight: 300;
+  margin-left: 10px;
+  color: #012e57;
+}
+#pid {
+  margin-left: 10px;
+  margin-top: 2px;
+  font-size: 15px;
+  color: #012e57;
+  font-weight: 300;
+}
+
+.fa-regular {
+  float: right;
+  font-size: 45px;
+  position: relative;
+  bottom: 46px;
+  right: 24px;
+}
+.dark-blue {
+  background: #012e57;
+  height: 10rem;
+  margin: 1.8rem 0.7rem;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+.center {
+  text-align: center;
+  z-index: 99;
+  color: white;
+  padding-top: 9px;
+  font-weight: 150;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+  line-height: 35px;
+  align-items: center;
+}
+
+.fade li {
+  color: #b6b6b6;
+  list-style-type: none;
+  font-size: 12px;
+}
+.details p {
+  font-size: 12px;
+}
+
+.line {
+  background: #b6b6b6;
+  width: 100%;
+  height: 2px;
+  margin-top: 20px;
+}
+.small {
+  font-size: 15px;
+  color: #000000;
+}
+
+.progress {
+  position: relative;
+  margin: 4px;
+  float: left;
+  text-align: center;
+}
+
+.barOverflow {
+  /* Wraps the rotating .bar */
+  position: relative;
+  width: 169px;
+  height: 88px;
+  overflow: hidden;
+}
+.bar {
+  position: absolute;
+  top: 7px;
+  left: 23px;
+  width: 144px;
+  height: 180px;
+  border-radius: 50%;
+  box-sizing: border-box;
+  border: 10px solid #ccc;
+  border-left-color: #fcb000;
+}
+.percentage {
+  color: white;
+  font-size: 24px;
+  display: block;
+  width: 125.8px;
+  margin-top: 42px;
+}
+
+.white-box-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 3rem;
+  flex-direction: column;
+}
+
+.white-box {
+  width: 59px;
+  height: 33px;
+  background: white;
+  border-radius: 10px;
+  margin-left: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.white-box p {
+  font-size: 11px;
+  color: #012e57;
+  font-weight: 300;
+  margin-top: 2px;
+  margin-left: 3px;
+}
